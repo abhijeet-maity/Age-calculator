@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    width: 50rem;
+    height: 18rem;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: 4px 4px 4px black;
+}
+.container .calculate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.calculate label {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.calculate #birthday {
+    width: 300px;
+    height: 2rem;
+}
+.calculate #btn { 
+    background-color: #0062CC;
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+}
+.calculate #result {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
